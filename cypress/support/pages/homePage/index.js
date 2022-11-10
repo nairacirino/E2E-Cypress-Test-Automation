@@ -1,14 +1,15 @@
-const ELEMENTS = require('./elements').ELEMENTS;
-
+// const ELEMENTS = require('./elements').ELEMENTS;
 class HomePage {
+    url = 'https://magento.softwaretestingboard.com/';
+    linkCreateAnAccount = '.header .links a[href="https://magento.softwaretestingboard.com/customer/account/create/"]';
 
-    // acaoNaPagina() { 
-    //     cy.get(ELEMENTS.elem1)
-    // }
+    visitHomePage() {
+        cy.visit(this.url)
+    }
 
-    // acessarCadastro() {
-    //     cy.get(ELEMENTS.elem2)
-    // }
+    clickCreateAnAccountLink() {
+        cy.get(this.linkCreateAnAccount).click()
+    }
 }
 
-export default new HomePage();
+export default HomePage()

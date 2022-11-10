@@ -1,4 +1,4 @@
 export const ELEMENTS = {
-    elem1: 'conteudo1',
-    elem1: 'conteudo1',
+    url: 'https://magento.softwaretestingboard.com/',
+    linkCreateAnAccount: '.header .links a[href="https://magento.softwaretestingboard.com/customer/account/create/"]',
 }

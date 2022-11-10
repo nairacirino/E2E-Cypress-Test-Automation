@@ -13,8 +13,12 @@ describe('Magento Software Testing Board - Demo Website ', () => {
     const addressBook = new AddressBook();
     const myAccount = new MyAccount();
 
-    it('Criação de conta de usuário no ecommerce', () => {
-        //comandos do cypress
-    })
+    context('Usuário Logado', () => {
+        beforeEach(() => {
 
+        })
+        it('Criação de conta de usuário no ecommerce', () => {
+            //comandos do cypress
+        })
+    })
 }); 
