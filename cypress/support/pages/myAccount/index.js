@@ -1,14 +1,14 @@
+import BaseScripts from '../baseScripts';
+
 const ELEMENTS = require('./elements').ELEMENTS;
 
 class MyAccount {
 
-    // acaoNaPagina() { 
-    //     cy.get(ELEMENTS.elem1)
-    // }
+    scripts = new BaseScripts();
 
-    // acessarCadastro() {
-    //     cy.get(ELEMENTS.elem2)
-    // }
+    openEditAddressPage() {
+        this.scripts.clickElement(ELEMENTS.defaultBillingAddressLink)
+    }
 }
 
-export default new MyAccount();
+export default MyAccount
