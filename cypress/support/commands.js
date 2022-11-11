@@ -2,13 +2,22 @@
 
 import CreateNewAccount from '../pages/create-new-account/index';
 import HomePage from '../pages/home-page/index';
+import AddNewAddress from '../pages/add-new-adress/index';
+import MyAccount from '../pages/my-account/index';
 
 const homePage = new HomePage();
 const createNewAccount = new CreateNewAccount();
+const addNewAddress = new AddNewAddress();
+const myAccount = new MyAccount();
 
 Cypress.Commands.add('createNewAccount', () => {
     homePage.clickCreateAnAccountLink();
     createNewAccount.createAccount();
+})
+
+Cypress.Commands.add('addDefaultBillingAddress', () => {
+    myAccount.openEditAddressPage();
+    addNewAddress.addDefaultBillingAddress();
 })
 
 Cypress.Commands.add('assertThat', (element, shouldMethod, value) => {

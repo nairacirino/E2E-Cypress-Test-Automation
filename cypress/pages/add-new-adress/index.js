@@ -3,7 +3,7 @@ const USERDATA = require('../../fixtures/userdata').USERDATA;
 
 class AddNewAddress {
 
-    addDefaultAddress() {
+    addDefaultBillingAddress() {
         cy.typeInfo(ELEMENTS.inputFieldStreetAddress, USERDATA.streetAddress)
         cy.typeInfo(ELEMENTS.inputFieldCity, USERDATA.city)
         cy.typeInfo(ELEMENTS.inputFieldPhone, USERDATA.phone)
