@@ -1,4 +1,3 @@
 export const ELEMENTS = {
-    elem1: 'conteudo1',
-    elem1: 'conteudo1',
+    myAccountLink: '.nav .item a[href="https://magento.softwaretestingboard.com/customer/account/"',
 }

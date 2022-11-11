@@ -1,14 +1,13 @@
+import BaseScripts from '../baseScripts';
+
 const ELEMENTS = require('./elements').ELEMENTS;
 
 class AddressBook {
+    scripts = new BaseScripts()
 
-    // acaoNaPagina() { 
-    //     cy.get(ELEMENTS.elem1)
-    // }
-
-    // acessarCadastro() {
-    //     cy.get(ELEMENTS.elem2)
-    // }
+    goBackToMyAccount() {
+        this.scripts.clickElement(ELEMENTS.myAccountLink)
+    }
 }
 
-export default new AddressBook();
+export default AddressBook
