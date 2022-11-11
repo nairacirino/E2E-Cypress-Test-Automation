@@ -2,11 +2,11 @@ const ELEMENTS = require('./elements').ELEMENTS;
 class HomePage {
 
     visitHomePage() {
-        cy.visit(ELEMENTS.url)
+        cy.visit(ELEMENTS.homeUrl)
     }
 
     clickCreateAnAccountLink() {
-        cy.get(ELEMENTS.linkCreateAnAccount).click()
+        cy.clickElement(ELEMENTS.linkCreateAnAccount)
     }
 }
 
