@@ -1,7 +1,7 @@
 import BaseScripts from '../baseScripts';
 
 const ELEMENTS = require('./elements').ELEMENTS;
-const USERDATA = require('./userdata').USERDATA;
+const USERDATA = require('../userdata').USERDATA;
 
 class CreateNewAccount {
 

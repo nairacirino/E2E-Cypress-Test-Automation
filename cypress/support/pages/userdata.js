@@ -3,6 +3,12 @@ export const USERDATA = {
     lastName: 'Lastname',
     email: generateRandomEmail(),
     password: 'STRONGpassword123*',
+    streetAddress: 'Any Street, 123',
+    city: 'My Town',
+    phone: 551112345678,
+    zipCode: 12345,
+    country: 'US',
+    state: 12,
 }
 
 function generateRandomEmail() {
