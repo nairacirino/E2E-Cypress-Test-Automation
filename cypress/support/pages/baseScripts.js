@@ -6,6 +6,10 @@ class BaseScripts {
     clickElement(element) {
         cy.get(element).click()
     }
+
+    selectInput(element, value) {
+        cy.get(element).select(value)
+    }
 }
 
 export default BaseScripts
