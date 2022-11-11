@@ -1,4 +1,9 @@
 export const ELEMENTS = {
-    elem1: 'conteudo1',
-    elem1: 'conteudo1',
+    inputStreetAddress: '#street_1',
+    inputPhone: '#telephone',
+    inputCity: '#city',
+    inputZipCode: '#zip',
+    selectCountry: '#country',
+    selectState: '#region_id',
+    buttonSave: 'button[title="Save Address"]',
 }
