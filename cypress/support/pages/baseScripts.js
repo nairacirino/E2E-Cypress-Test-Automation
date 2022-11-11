@@ -10,6 +10,10 @@ class BaseScripts {
     selectInput(element, value) {
         cy.get(element).select(value)
     }
+
+    shouldAssertion(element, shouldMethod, value) {
+        cy.get(element).should(shouldMethod, value)
+    }
 }
 
 export default BaseScripts

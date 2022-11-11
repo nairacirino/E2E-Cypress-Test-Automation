@@ -3,8 +3,8 @@
 import AddNewAddress from '../support/pages/addNewAdress/index';
 import AddressBook from '../support/pages/addressBook';
 import CreateNewAccount from '../support/pages/createNewAccount/index';
-import HomePage from '../support/pages/homePage/index'
-import MyAccount from '../support/pages/myAccount/index'
+import HomePage from '../support/pages/homePage/index';
+import MyAccount from '../support/pages/myAccount/index';
 
 describe('Magento Software Testing Board - Demo Website ', () => {
     const homePage = new HomePage();
@@ -15,14 +15,16 @@ describe('Magento Software Testing Board - Demo Website ', () => {
 
     // context('Usuário Logado', () => {
         beforeEach(() => {
-            homePage.visitHomePage()
+            homePage.visitHomePage();
         })
         it('Criação de conta de usuário no ecommerce', () => {
-            homePage.clickCreateAnAccountLink()
-            createNewAccount.createAccount()
-            myAccount.openEditAddressPage()
-            addNewAddress.addDefaultAddress()
-            addressBook.goBackToMyAccount()
+            homePage.clickCreateAnAccountLink();
+            createNewAccount.createAccount();
+            myAccount.openEditAddressPage();
+            addNewAddress.addDefaultAddress();
+            addressBook.goBackToMyAccount();
+            myAccount.assertFinalPage();
+            myAccount.assertDefaultBillingAddress();
         })
     // })
 }); 
