@@ -2,7 +2,7 @@ const ELEMENTS = require('./elements').ELEMENTS;
 class HomePage {
 
     visitHomePage() {
-        cy.visit(ELEMENTS.homeUrl)
+        cy.visit('')
     }
 
     clickCreateAnAccountLink() {
