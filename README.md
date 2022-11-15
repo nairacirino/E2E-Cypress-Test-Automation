@@ -44,7 +44,7 @@ Uma vez escrito e funcionando como esperado, refatorei o código para dar maior 
 
 ## LICENÇA E RESTRIÇÕES
 
-Projeto criado sob a licença CC0 1.0 Universal - Dedicação ao Domínio Público. Saiba mais sobre esse tipo de licença <a href='https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR'>. Mas se estiver com preguiça, em resumo, sob esta licença estou renunciando a todos os meus direitos de autor e/ou de direitos conexos referentes ao trabalho, em todo o mundo, na medida permitida por lei.
+Projeto criado sob a licença CC0 1.0 Universal - Dedicação ao Domínio Público. Saiba mais sobre esse tipo de licença <a href='https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR'>aqui</a>. Mas se estiver com preguiça, em resumo, sob esta licença estou renunciando a todos os meus direitos de autor e/ou de direitos conexos referentes ao trabalho, em todo o mundo, na medida permitida por lei.
 
 Você pode copiar, modificar, distribuir e executar o trabalho, mesmo para fins comerciais, sem pedir minha autorização e sem atribuição de créditos. 
 
